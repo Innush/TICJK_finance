@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <script language="javascript" type="text/javascript" src="web3.min.js"></script> -->
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      window.addEventListener('load', function() {
+        console.log("inna ha malka");
+        if (typeof web3 !== 'undefined') {
+          web3js = new Web3(web3.currentProvider);
+        } else {
+
+        }
+        startApp()
+      })
+    </script>
+  </body>
+</html>
+
+
+  

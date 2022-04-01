@@ -1,0 +1,27 @@
+{
+  "name": "krypto",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "ethers": "^5.6.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-scripts": "^5.0.0",
+    "web3": "^1.7.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.0.7",
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "postcss-import": "^14.0.2",
+    "postcss-loader": "^6.2.1",
+    "tailwindcss": "^3.0.23",
+    "vite": "^2.8.0"
+  }
+}
